@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leone Malinda Nguku - AI Engineer & Agentic Automation Specialist</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif; line-height: 1.6; color: #333; background: #f8f9fa; }
+        .container { max-width: 900px; margin: 0 auto; padding: 20px; }
+        header { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 60px 20px; text-align: center; border-radius: 10px; margin-bottom: 30px; }
+        .profile-img { width: 180px; height: 180px; border-radius: 50%; border: 5px solid white; object-fit: cover; object-position: center 20%; margin-bottom: 20px; box-shadow: 0 4px 15px rgba(0,0,0,0.2); }
+        h1 { font-size: 2.5em; margin-bottom: 10px; }
+        .tagline { font-size: 1.2em; opacity: 0.95; margin-bottom: 20px; }
+        .contact-links { display: flex; gap: 20px; justify-content: center; flex-wrap: wrap; margin-top: 20px; }
+        .contact-links a { color: white; text-decoration: none; padding: 10px 20px; background: rgba(255,255,255,0.2); border-radius: 5px; transition: all 0.3s; }
+        .contact-links a:hover { background: rgba(255,255,255,0.3); transform: translateY(-2px); }
+        section { background: white; padding: 30px; margin-bottom: 20px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        h2 { color: #667eea; margin-bottom: 20px; font-size: 1.8em; border-bottom: 3px solid #667eea; padding-bottom: 10px; }
+        .about p { font-size: 1.1em; line-height: 1.8; color: #555; }
+        .project { margin-bottom: 30px; padding: 20px; background: #f8f9fa; border-radius: 8px; border-left: 4px solid #667eea; }
+        .project h3 { color: #333; margin-bottom: 10px; font-size: 1.4em; }
+        .project-meta { color: #666; font-size: 0.9em; margin-bottom: 10px; font-style: italic; }
+        .project ul { margin-left: 20px; margin-top: 10px; }
+        .project li { margin-bottom: 8px; color: #555; }
+        .skills { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 15px; }
+        .skill-category { background: #f8f9fa; padding: 15px; border-radius: 8px; border-left: 3px solid #764ba2; }
+        .skill-category h3 { color: #764ba2; font-size: 1.1em; margin-bottom: 10px; }
+        .skill-category ul { list-style: none; }
+        .skill-category li { padding: 5px 0; color: #555; }
+        .skill-category li:before { content: "▹ "; color: #764ba2; font-weight: bold; }
+        .certs { display: grid; gap: 10px; }
+        .cert { background: #f8f9fa; padding: 12px 15px; border-radius: 5px; border-left: 3px solid #667eea; }
+        footer { text-align: center; padding: 30px; color: #666; }
+        @media (max-width: 768px) {
+            h1 { font-size: 2em; }
+            .tagline { font-size: 1em; }
+            .profile-img { width: 150px; height: 150px; }
+            section { padding: 20px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="Leone_Professional.jpg" alt="Leone Malinda Nguku" class="profile-img">
+            <h1>Leone Malinda Nguku</h1>
+            <p class="tagline">AI Engineer | Agentic Automation Specialist | AI Safety Researcher</p>
+            <p>Nairobi, Kenya | nthumbi.malinda@gmail.com | +254722248867</p>
+            <div class="contact-links">
+                <a href="https://github.com/LeoneNthumbi" target="_blank">GitHub</a>
+                <a href="https://www.linkedin.com/in/leone-nthumbi-" target="_blank">LinkedIn</a>
+            </div>
+        </header>
+
+        <section class="about">
+            <h2>About Me</h2>
+            <p>Certified Agentic Automation Associate and Applied Machine Learning Specialist with hands-on experience building intelligent AI systems that solve real-world problems. Currently leading Agent Julie at Jubilee Insurance Kenya, a hybrid RPA + LLM orchestration system that saves 3,000+ man-hours monthly and reduces claim processing time by 90%.</p>
+            <p>Passionate about AI safety, responsible AI deployment, and building scalable Human + AI systems. Experienced in agentic automation, LLM integration, RAG architectures, and autonomous agent workflows with over 4 years in the IT field.</p>
+        </section>
+
+        <section>
+            <h2>Featured Projects</h2>
+            
+            <div class="project">
+                <h3>🤖 Agent Julie - AI-Powered Medical Pre-Authorization System</h3>
+                <p class="project-meta">Jubilee Insurance Kenya | Production System | Oct 2024 - Present</p>
+                <p>Next-generation agentic AI system combining RPA and LLM intelligence to autonomously process medical insurance pre-authorizations.</p>
+                <ul>
+                    <li><strong>Architecture:</strong> Hybrid RPA (UiPath) + LLM orchestration using Anthropic Claude via AWS Bedrock</li>
+                    <li><strong>Capabilities:</strong> OCR + LLM classification for claim data extraction, RAG via AWS S3 for contextual decision-making, automated validation across 3 core insurance systems (Actisure, Slade360, SMART Portal)</li>
+                    <li><strong>Impact:</strong> 3,000+ man-hours saved monthly, reduced processing time from 15 minutes to 3 minutes (~90% reduction), improved accuracy and compliance tracking</li>
+                    <li><strong>Tech Stack:</strong> UiPath Maestro, AWS Bedrock, Claude, Python, RAG, OCR, AWS S3</li>
+                </ul>
+            </div>
+
+            <div class="project">
+                <h3>💳 Bankwise Credit Confidence Score Engine</h3>
+                <p class="project-meta">AI-Powered Credit Scoring System for Kenyan Financial Institutions</p>
+                <p>Comprehensive credit risk evaluation platform featuring ML-based scoring, AI assistant (Christina), and end-to-end loan management.</p>
+                <ul>
+                    <li><strong>Christina AI Assistant:</strong> Conversational AI using AWS Bedrock (Claude 3.5 Haiku) for loan guidance, document analysis, and business intelligence</li>
+                    <li><strong>ML Models:</strong> Credit risk assessment using Scikit-learn and XGBoost with real-time scoring</li>
+                    <li><strong>Full Stack:</strong> Client portal, business dashboard, and analytics platform with FastAPI backend</li>
+                    <li><strong>AI Safety Focus:</strong> Fairness-aware ML, bias detection, responsible AI deployment in high-stakes financial decisions</li>
+                    <li><strong>Tech Stack:</strong> Python, FastAPI, AWS Bedrock, Claude, Scikit-learn, XGBoost, SQLite</li>
+                </ul>
+            </div>
+
+            <div class="project">
+                <h3>⚡ CR-BOT - AI Credit Risk Evaluation (Beta)</h3>
+                <p class="project-meta">ALX Founder Academy Project</p>
+                <p>AI-powered bot for financial institutions to assess credit risks using LLMs, NLP, and predictive analytics.</p>
+                <ul>
+                    <li>Applied the 5 C's of credit aligned with CBK Prudential Guidelines</li>
+                    <li>Leveraged GPT-4o, anomaly detection, and large-scale data analysis</li>
+                    <li><strong>Tech Stack:</strong> OpenAI GPT-4o, Zapier, Python, Pandas, Scikit-learn</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>Core Skills</h2>
+            <div class="skills">
+                <div class="skill-category">
+                    <h3>Agentic AI & LLMs</h3>
+                    <ul>
+                        <li>Agentic Automation (UiPath Maestro)</li>
+                        <li>LLM Integration (Claude, GPT)</li>
+                        <li>AWS Bedrock</li>
+                        <li>RAG Architecture</li>
+                        <li>Prompt Engineering</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>RPA & Automation</h3>
+                    <ul>
+                        <li>UiPath (Orchestrator, Studio)</li>
+                        <li>Automation Anywhere</li>
+                        <li>Blue Prism</li>
+                        <li>Workflow Orchestration</li>
+                        <li>Process Optimization</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Machine Learning & AI</h3>
+                    <ul>
+                        <li>Scikit-learn, XGBoost</li>
+                        <li>NLP & Text Analysis</li>
+                        <li>OCR & Document Processing</li>
+                        <li>Predictive Analytics</li>
+                        <li>Applied ML</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Cloud & Infrastructure</h3>
+                    <ul>
+                        <li>AWS (Bedrock, EC2, S3, Rekognition)</li>
+                        <li>API Integration</li>
+                        <li>Python, FastAPI</li>
+                        <li>Data Pipelines</li>
+                        <li>Agile Development</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Certifications</h2>
+            <div class="certs">
+                <div class="cert">🎓 <strong>UiPath Professional Agentic Automation Associate</strong> - Automation of business processes using Agentic AI tools</div>
+                <div class="cert">☁️ <strong>AWS Cloud Essentials Badge</strong> - AWS Quest Cloud Practitioner</div>
+                <div class="cert">🤖 <strong>ALX Artificial Intelligence Career Essentials</strong> - AI in workplace integration</div>
+                <div class="cert">🚀 <strong>ALX Founder Academy Certificate</strong> - CR-BOT development and launch</div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Experience</h2>
+            <div class="project">
+                <h3>Agentic & Robotic Process Automation Developer</h3>
+                <p class="project-meta">Jubilee Insurance Group | Nairobi, Kenya | Oct 2024 - Present</p>
+                <ul>
+                    <li>Architect and deploy intelligent automation workflows integrating UiPath with LLM-driven reasoning</li>
+                    <li>Lead development of Agent Julie for medical pre-authorizations</li>
+                    <li>Collaborate with data scientists and AI engineers on agentic workflows aligned with governance requirements</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>Education</h2>
+            <p><strong>Kenyatta University, Nairobi</strong><br>Bachelor of Science in Information Technology - 2025</p>
+        </section>
+
+        <footer>
+            <p>© 2025 Leone Malinda Nguku | Available for AI Safety Research & Collaboration</p>
+        </footer>
+    </div>
+</body>
+</html>
